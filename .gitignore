@@ -1,0 +1,41 @@
+**/.DS_Store
+
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+### VS Code ###
+.vscode/
+
+### Node dependencies ###
+node_modules
+
+### U.S. Web Design System (USWDS) ###
+# There's no need to copy all 2K+ USWDS asset. The usa-icons/ are packaged
+# into the SVG sprite (prefer using it). However, since img src attributes
+# don't use a sprite, each icon using this method must be explicitly included
+# individually in the assets directory.
+assets/uswds/img/favicons
+assets/uswds/img/material-icons
+assets/uswds/img/material-icons-deprecated
+assets/uswds/img/usa-icons/*
+assets/uswds/img/usa-icons-bg
+assets/uswds/img/uswds-icons
+# Track and check in these icons:
+!assets/uswds/img/usa-icons/close.svg
+!assets/uswds/img/usa-icons-bg/search--white.svg
+!assets/uswds/img/usa-icons/facebook.svg
+!assets/uswds/img/usa-icons/twitter.svg
+!assets/uswds/img/usa-icons/instagram.svg
+!assets/uswds/img/usa-icons/youtube.svg
+!assets/uswds/img/usa-icons/rss_feed.svg
+!assets/uswds/img/usa-icons/expand_more.svg
+!assets/uswds/img/usa-icons-bg/search--white.svg
+!assets/uswds/img/usa-icons/facebook.svg
+!assets/uswds/img/usa-icons/twitter.svg
+!assets/uswds/img/usa-icons/youtube.svg
+!assets/uswds/img/usa-icons/rss_feed.svg
+!assets/uswds/img/usa-icons/instagram.svg
