@@ -10,10 +10,12 @@ description: >-
   meta (for Google search results) and in feed.xml site description. Also a fallback
   for pages without their own description. Also part of a page's title tag if neither
   page.title nor site.tagline is defined.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # base hostname & protocol, e.g. http://example.com
 
 ### Build settings ###
+
+baseurl: "/template-jekyll-uswds" # the subpath of your site, e.g. /blog
+url: "https://navapbc.github.io" # base hostname & protocol, e.g. http://example.com
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

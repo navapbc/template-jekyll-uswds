@@ -4,14 +4,14 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <em class="usa-logo__text"
-          ><a href="{{ / | absolute_url }}" title="{{ site.title }}">{{ site.title }}</a></em
+          ><a href="{% link index.md %}" title="{{ site.title }}">{{ site.title }}</a></em
         >
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
       <button type="button" class="usa-nav__close">
-        <img src="/assets/uswds/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src="{{ '/assets/uswds/img/usa-icons/close.svg' | relative_url }}" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -47,13 +47,13 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{{ 'sample-page' | absolute_url }}"
+          <a href="{{ 'sample-page' | relative_url }}"
           class="usa-nav-link {% if page.active-nav == 'sample-page' %}{{ 'usa-current' }}{% endif %}"
             ><span>Page</span></a
           >
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{% post_url 2024-07-24-welcome-to-jekyll | absolute_url %}"
+          <a href="{% post_url 2024-07-24-welcome-to-jekyll %}"
           class="usa-nav-link {% if page.active-nav == 'sample-post' %}{{ 'usa-current' }}{% endif %}"
             ><span>Post</span></a
           >
@@ -70,7 +70,7 @@
           />
           <button class="usa-button" type="submit">
             <img
-              src="{{ /assets/uswds/img/usa-icons-bg/search--white.svg | absolute_url }}"
+              src="{{ /assets/uswds/img/usa-icons-bg/search--white.svg | relative_url }}"
               class="usa-search__submit-icon"
               alt="Search"
             />

@@ -31,7 +31,7 @@ To run the Jekyll server and watch for changes:
 bundle exec jekyll serve --livereload
 ```
 
-You can view the site at `localhost:4000` and LiveReload will automatically reload your browser when files are modified.
+You can view the site at `http://localhost:4000/template-jekyll-uswds/` (or whatever you configure as the `baseurl`) and LiveReload will automatically reload your browser when files are modified.
 
 ### Compiling USWDS styles and scripts
 
@@ -64,7 +64,7 @@ All of the `usa-icons` are packaged into a sprite, which should be preferred whe
 
 ```
 <svg class="usa-icon" role="img">
-  <use xlink:href="/assets/img/sprite.svg#arrow_forward"></use>
+  <use xlink:href="{{ '/assets/img/sprite.svg#arrow_forward' | relative_url }}"></use>
 </svg>
 ```
 

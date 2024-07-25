@@ -5,8 +5,8 @@
   {%- seo -%}
 
   <!-- USWDS -->
-  <link href="{{ 'assets/uswds/css/styles.css' | absolute_url }}?{{site.time | pubDate: '%s'}}" rel="stylesheet">
-  <script src="{{ 'assets/uswds/js/uswds-init.min.js' | absolute_url }}"></script>
+  <link href="{{ 'assets/uswds/css/styles.css' | relative_url }}?{{site.time | pubDate: '%s'}}" rel="stylesheet">
+  <script src="{{ 'assets/uswds/js/uswds-init.min.js' | relative_url }}"></script>
 
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

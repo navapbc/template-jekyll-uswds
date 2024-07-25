@@ -1,6 +1,7 @@
 ---
 layout: base
 full-width: true # removes `.grid-container` in base layout
+permalink: /
 ---
 
 <!-- https://designsystem.digital.gov/templates/landing-page/ -->
@@ -51,7 +52,7 @@ full-width: true # removes `.grid-container` in base layout
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="/assets/img/circle-124.png"
+          src="{{ '/assets/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -68,7 +69,7 @@ full-width: true # removes `.grid-container` in base layout
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="/assets/img/circle-124.png"
+          src="{{ '/assets/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -87,7 +88,7 @@ full-width: true # removes `.grid-container` in base layout
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="/assets/img/circle-124.png"
+          src="{{ '/assets/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -104,7 +105,7 @@ full-width: true # removes `.grid-container` in base layout
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="/assets/img/circle-124.png"
+          src="{{ '/assets/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
