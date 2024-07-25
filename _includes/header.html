@@ -4,7 +4,7 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <em class="usa-logo__text"
-          ><a href="/" title="<Project title>">&lt;Project title&gt;</a></em
+          ><a href="/" title="{{ site.title }}">{{ site.title }}</a></em
         >
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
@@ -47,7 +47,7 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{{ 'about' | relative_url }}"
+          <a href="{{ 'sample-page' | relative_url }}"
           class="usa-nav-link {% if page.active-nav == 'sample-page' %}{{ 'usa-current' }}{% endif %}"
             ><span>Page</span></a
           >

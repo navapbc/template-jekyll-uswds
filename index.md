@@ -1,28 +1,135 @@
 ---
 layout: base
-full-width: true
+full-width: true # removes `.grid-container` in base layout
 ---
 
-<div class="bg-primary text-white">
-  <div class="grid-container padding-y-4" markdown="block">
+<!-- https://designsystem.digital.gov/templates/landing-page/ -->
 
-# Hello world!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet velit ut nunc molestie lobortis. Curabitur mattis, metus a posuere bibendum, mauris arcu pretium ex, et interdum ex enim non odio. Nam vitae felis condimentum, tincidunt odio sed, dignissim leo. Aenean vestibulum est at dictum eleifend. Etiam varius in nulla et viverra. Proin gravida sem sit amet leo fermentum vulputate. Sed ac lacinia ipsum. In hac habitasse platea dictumst. Etiam elementum sem congue sem ullamcorper, ac ultricies quam bibendum.
-
+<section class="usa-hero" aria-label="Introduction">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      <h1 class="usa-hero__heading">
+        <span class="usa-hero__heading--alt">Hero callout:</span>Bring
+        attention to a project priority
+      </h1>
+      <p>
+        Support the callout with some short explanatory text. You don’t need
+        more than a couple of sentences.
+      </p>
+      <a class="usa-button" href="">Call to action</a>
+    </div>
   </div>
-</div>
+</section>
 
-<div class="grid-container padding-y-2" markdown="block">
+<section class="grid-container usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-4">
+      <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
+        A tagline highlights your approach
+      </h2>
+    </div>
+    <div class="tablet:grid-col-8 usa-prose">
+      <p>
+        The tagline should inspire confidence and interest, focusing on the
+        value that your overall approach offers to your audience. Use a
+        heading typeface and keep your tagline to just a few words, and
+        don’t confuse or mystify.
+      </p>
+      <p>
+        Use the right side of the grid to explain the tagline a bit more.
+        What are your goals? How do you do your work? Write in the present
+        tense, and stay brief here. People who are interested can find
+        details on internal pages.
+      </p>
+    </div>
+  </div>
+</section>
 
-## Heading 2
+<section class="usa-graphic-list usa-section usa-section--dark">
+  <div class="grid-container">
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="usa-media-block tablet:grid-col">
+        <img
+          class="usa-media-block__img"
+          src="/assets/img/circle-124.png"
+          alt="Alt text"
+        />
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading">
+            Graphic headings can vary.
+          </h2>
+          <p>
+            Graphic headings can be used a few different ways, depending on
+            what your landing page is for. Highlight your values, specific
+            program areas, or results.
+          </p>
+        </div>
+      </div>
+      <div class="usa-media-block tablet:grid-col">
+        <img
+          class="usa-media-block__img"
+          src="/assets/img/circle-124.png"
+          alt="Alt text"
+        />
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading">
+            Stick to 6 or fewer words.
+          </h2>
+          <p>
+            Keep body text to about 30 words. They can be shorter, but try
+            to be somewhat balanced across all four. It creates a clean
+            appearance with good spacing.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="usa-media-block tablet:grid-col">
+        <img
+          class="usa-media-block__img"
+          src="/assets/img/circle-124.png"
+          alt="Alt text"
+        />
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading">
+            Never highlight anything without a goal.
+          </h2>
+          <p>
+            For anything you want to highlight here, understand what your
+            users know now, and what activity or impression you want from
+            them after they see it.
+          </p>
+        </div>
+      </div>
+      <div class="usa-media-block tablet:grid-col">
+        <img
+          class="usa-media-block__img"
+          src="/assets/img/circle-124.png"
+          alt="Alt text"
+        />
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading">Could also have 2 or 6.</h2>
+          <p>
+            In addition to your goal, find out your users’ goals. What do
+            they want to know or do that supports your mission? Use these
+            headings to show those.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-Phasellus sagittis lorem blandit orci dapibus hendrerit. Integer sed tortor justo. Aliquam tempus ultricies magna non accumsan. Phasellus vitae laoreet tellus. Nulla sodales tellus convallis ornare laoreet. Nulla facilisi. Suspendisse metus velit, commodo nec enim nec, malesuada commodo mauris.
-
-### Heading 3
-
-Suspendisse convallis metus quis dictum pharetra. Curabitur viverra neque sit amet est placerat dapibus. Nunc rhoncus lorem ac dui tincidunt bibendum. In eget scelerisque enim, at eleifend dolor. Cras pellentesque nisi ac consectetur consequat. Maecenas nec ultricies lacus. Maecenas dolor massa, ultrices et neque eu, condimentum suscipit leo. Vestibulum scelerisque lacus ac sodales pulvinar. Etiam varius massa dolor. Curabitur molestie gravida mauris et suscipit.
-
-Aliquam pellentesque porta metus id vulputate. Ut non elit pretium, egestas augue in, vestibulum risus. Curabitur faucibus arcu a odio blandit, non feugiat odio gravida. Praesent sit amet mattis risus. Fusce et turpis et tellus porta gravida quis ultricies nunc. Nullam at egestas orci. Maecenas auctor, eros at hendrerit commodo, ex enim scelerisque dolor, quis gravida tellus purus ac felis. Phasellus vel mi quam. Donec tortor eros, blandit eget enim pellentesque, malesuada fringilla tortor. Pellentesque efficitur, est nec faucibus tristique, quam nisl tempor odio, eget vestibulum ex sem ut lorem. Fusce ipsum ipsum, sollicitudin a sagittis sed, consequat nec ligula. Morbi iaculis mi felis, sit amet ultrices felis malesuada et. Pellentesque eu justo sodales, pharetra erat fermentum, vehicula risus. In posuere sollicitudin ligula eget volutpat. Cras ut tortor sodales, fringilla nisi sit amet, hendrerit enim. Aliquam et condimentum elit, ut mattis dui.
-
-</div>
+<section id="test-section-id" class="usa-section">
+  <div class="grid-container">
+    <h2 class="font-heading-xl margin-y-0">Section heading</h2>
+    <p class="usa-intro">
+      Everything up to this point should help people understand your agency
+      or project: who you are, your goal or mission, and how you approach
+      it. Use this section to encourage them to act. Describe why they
+      should get in touch here, and use an active verb on the button below.
+      “Get in touch,” “Learn more,” and so on.
+    </p>
+    <a class="usa-button usa-button--big" href="">Call to action</a>
+  </div>
+</section>

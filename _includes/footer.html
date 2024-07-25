@@ -125,7 +125,7 @@
             <img class="usa-footer__logo-img" src="/assets/uswds/img/logo-img.png" alt="" />
           </div>
           <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">&lt;Name of Agency&gt;</p>
+            <p class="usa-footer__logo-heading">{{site.agency}}</p>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -172,15 +172,15 @@
             </div>
           </div>
           <p class="usa-footer__contact-heading">
-            &lt;Agency Contact Center&gt;
+            {{site.agency-contact-center}}
           </p>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
               <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">&lt;(800) 555-GOVT&gt;</a>
+                <a href="tel:{{site.agency-telephone}}">{{site.agency-telephone}}</a>
               </div>
               <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">&lt;info@agency.gov&gt;</a>
+                <a href="mailto:{{site.agency-email}}">{{site.agency-email}}</a>
               </div>
             </div>
           </address>
