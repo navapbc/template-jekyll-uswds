@@ -4,7 +4,7 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <em class="usa-logo__text"
-          ><a href="/" title="{{ site.title }}">{{ site.title }}</a></em
+          ><a href="{{ / | absolute_url }}" title="{{ site.title }}">{{ site.title }}</a></em
         >
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
@@ -47,13 +47,13 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{{ 'sample-page' | relative_url }}"
+          <a href="{{ 'sample-page' | absolute_url }}"
           class="usa-nav-link {% if page.active-nav == 'sample-page' %}{{ 'usa-current' }}{% endif %}"
             ><span>Page</span></a
           >
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{% post_url 2024-07-24-welcome-to-jekyll %}"
+          <a href="{% post_url 2024-07-24-welcome-to-jekyll | absolute_url %}"
           class="usa-nav-link {% if page.active-nav == 'sample-post' %}{{ 'usa-current' }}{% endif %}"
             ><span>Post</span></a
           >
@@ -70,7 +70,7 @@
           />
           <button class="usa-button" type="submit">
             <img
-              src="/assets/uswds/img/usa-icons-bg/search--white.svg"
+              src="{{ /assets/uswds/img/usa-icons-bg/search--white.svg | absolute_url }}"
               class="usa-search__submit-icon"
               alt="Search"
             />
