@@ -22,8 +22,8 @@ assets/uswds/img/favicons
 assets/uswds/img/material-icons
 assets/uswds/img/material-icons-deprecated
 assets/uswds/img/usa-icons/*
-assets/uswds/img/usa-icons-bg
-assets/uswds/img/uswds-icons
+assets/uswds/img/usa-icons-bg/*
+assets/uswds/img/uswds-icons/*
 # Track and check in these icons:
 !assets/uswds/img/usa-icons/close.svg
 !assets/uswds/img/usa-icons-bg/search--white.svg
