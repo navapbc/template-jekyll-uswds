@@ -52,7 +52,7 @@ permalink: /
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="{{ '/assets/img/circle-124.png' | relative_url }}"
+          src="{{ '/assets/uswds/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -69,7 +69,7 @@ permalink: /
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="{{ '/assets/img/circle-124.png' | relative_url }}"
+          src="{{ '/assets/uswds/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -88,7 +88,7 @@ permalink: /
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="{{ '/assets/img/circle-124.png' | relative_url }}"
+          src="{{ '/assets/uswds/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
@@ -105,7 +105,7 @@ permalink: /
       <div class="usa-media-block tablet:grid-col">
         <img
           class="usa-media-block__img"
-          src="{{ '/assets/img/circle-124.png' | relative_url }}"
+          src="{{ '/assets/uswds/img/circle-124.png' | relative_url }}"
           alt="Alt text"
         />
         <div class="usa-media-block__body">
