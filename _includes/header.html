@@ -4,7 +4,7 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <em class="usa-logo__text"
-          ><a href="{% link index.md %}" title="{{ site.title }}">{{ site.title }}</a></em
+          ><a href="{{ '/' | relative_url }}" title="{{ site.title }}">{{ site.title }}</a></em
         >
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
@@ -53,7 +53,7 @@
           >
         </li>
         <li class="usa-nav__primary-item">
-          <a href="{% post_url 2024-07-24-welcome-to-jekyll %}"
+          <a href="{{ 'jekyll/update/2024/07/24/welcome-to-jekyll.html' | relative_url }}"
           class="usa-nav-link {% if page.active-nav == 'sample-post' %}{{ 'usa-current' }}{% endif %}"
             ><span>Post</span></a
           >
