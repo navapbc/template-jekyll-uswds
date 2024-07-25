@@ -26,7 +26,6 @@ assets/uswds/img/usa-icons-bg/*
 assets/uswds/img/uswds-icons/*
 # Track and check in these icons:
 !assets/uswds/img/usa-icons/close.svg
-!assets/uswds/img/usa-icons-bg/search--white.svg
 !assets/uswds/img/usa-icons/facebook.svg
 !assets/uswds/img/usa-icons/twitter.svg
 !assets/uswds/img/usa-icons/instagram.svg
@@ -34,8 +33,3 @@ assets/uswds/img/uswds-icons/*
 !assets/uswds/img/usa-icons/rss_feed.svg
 !assets/uswds/img/usa-icons/expand_more.svg
 !assets/uswds/img/usa-icons-bg/search--white.svg
-!assets/uswds/img/usa-icons/facebook.svg
-!assets/uswds/img/usa-icons/twitter.svg
-!assets/uswds/img/usa-icons/youtube.svg
-!assets/uswds/img/usa-icons/rss_feed.svg
-!assets/uswds/img/usa-icons/instagram.svg
