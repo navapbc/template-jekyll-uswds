@@ -13,7 +13,7 @@ This Ruby program builds a static website via [Jekyll](https://jekyllrb.com/) th
 
 ## Architecture
 
-This Jekyll  doesn't use a gem-based theme. All assets, layouts, includes, and stylesheets are contained within the repo.
+This Jekyll site doesn't use a gem-based theme. All assets, layouts, includes, and stylesheets are contained within the repo.
 
 It also doesn't use the [bundled Sass converter](https://jekyllrb.com/docs/configuration/sass/). Any unintentional Sass munging is avoided since all styles are precompiled via [`uswds-compile`](https://github.com/uswds/uswds-compile), USWDS's recommended set of [Gulp](https://gulpjs.com/) functions for copying the static assets and transforming Sass into CSS.
 
