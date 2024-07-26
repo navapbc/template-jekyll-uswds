@@ -58,7 +58,7 @@ npx gulp watch
 
 #### USWDS Icons
 
-Over 2K icons get compiled when you run the Gulp tasks. Woah! Every individual icon file is not tracked and committed.
+Over 2K icons get compiled when you run the Gulp tasks. Woah! But every individual icon file is not tracked and committed.
 
 All of the `usa-icons` are packaged into a sprite, which should be preferred when possible:
 
@@ -68,20 +68,14 @@ All of the `usa-icons` are packaged into a sprite, which should be preferred whe
 </svg>
 ```
 
-However, `img` tags need to point to individual icon files. These must be explicitly be tracked, checked in, and added to the build process.
-
-Add required icons to the list of files to track (not be ignored) in `.gitignore`:
+However, `img` tags need to point to individual icon files. These must be explicitly be tracked and checked in. Add required icons to the list of files to track (not be ignored) in `.gitignore`:
 
 ```sh
 !assets/uswds/img/usa-icons/close.svg
 ```
 
-Although most aren't tracked, 2K+ icons in your local assets can slow down development. To speed it up, all icons are excluded from the build process unless expliciltly included in `_congif.yml`.
-
-```
-include:
-  - assets/uswds/img/usa-icons/close.svg
-```
+> [!TIP]
+> Although most aren't tracked, 2K+ compiled icons can slow down `jekyll build`, as it copies all assets to `_site`. To speed up local development, you can temporarily uncomment the `exclude` and `include` icons listed in `_congif.yml`, matching what's in `.gitignore`. But you don't need to commit this config, as the deploys will only build from the committed icons.
 
 ## Theming USWDS
 
