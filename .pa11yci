@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "hideElements": ".usa-overlay",
+    "ignore": [
+      "color-contrast"
+    ],
+    "includeWarnings": true,
+    "runners": [
+      "axe",
+      "htmlcs"
+    ],
+    "standard": "WCAG2AA"
+  },
+  "urls": [
+    "http://localhost:4000/template-jekyll-uswds/",
+    "http://localhost:4000/template-jekyll-uswds/sample-page/",
+    "http://localhost:4000/template-jekyll-uswds/taxonomy/category/2024/07/24/welcome-to-jekyll.html"
+  ],
+  "timeout": 240000
+}
