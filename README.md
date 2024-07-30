@@ -105,19 +105,9 @@ Install Pa11y CI:
 npm install -g pa11y-ci
 ```
 
-Update the `urls` array in `.pa11yci` to include all pages that should be tested:
-
+Run tests for every page in the sitemap:
 ```sh
-"urls": [
-    "http://localhost:4000/template-jekyll-uswds/",
-    "http://localhost:4000/template-jekyll-uswds/sample-page/",
-    "http://localhost:4000/template-jekyll-uswds/taxonomy/category/2024/07/24/welcome-to-jekyll.html"
-  ],
-```
-
-Run the tests against your local server:
-```sh
-pa11y-ci --config .pa11yci
+pa11y-ci --sitemap http://localhost:4000/template-jekyll-uswds/sitemap.xml
 ```
 
 Depending on your CI/CD setup, [Pa11y](https://pa11y.org/) can be further configured to run on each build, deploy, pull request, etc.
