@@ -77,7 +77,7 @@ However, `img` tags need to point to individual icon files. These must be explic
 > [!TIP]
 > Although most aren't tracked, 2K+ compiled icons can slow down `jekyll build`, as it copies all assets to `_site`. To speed up local development, you can temporarily uncomment the `exclude` and `include` icons listed in `_congif.yml`, matching what's in `.gitignore`. But you don't need to commit this config (it breaks Jekyll v3 / GitHub Pages), as deploys will only build from committed icons.
 
-## Theming USWDS
+### Theming USWDS
 
 See USWDS [settings documentation](https://designsystem.digital.gov/documentation/settings/)
 
@@ -95,9 +95,24 @@ For specific customizations that cannot be achieved at the theme level, USWDS in
 
 If custom styles must be written, they should added to `_uswds-theme-custom-styles.scss`, where you can leverage [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), variables, mixins, and functions.
 
+### Accessibility tests ([Pa11y](https://pa11y.org/))
+
+The `.pa11yci` config file defines [Axe](https://github.com/dequelabs/axe-core) and [HTML_CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/) accessibilty tests for WCAG 2 Level AA conformance that should be run during local development:
+
+Install Pa11y CI:
+
+```sh
+npm install -g pa11y-ci
+```
+
+Run tests for every page in the sitemap:
+```sh
+pa11y-ci --sitemap http://localhost:4000/template-jekyll-uswds/sitemap.xml
+```
+
+Depending on your CI/CD setup, [Pa11y](https://pa11y.org/) can be further configured to run on each build, deploy, pull request, etc.
+
 <!--
 ## SEO
-
 [TODO: write summary guidance for https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md]
-
 -->

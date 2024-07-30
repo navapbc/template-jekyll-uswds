@@ -17,7 +17,7 @@ permalink: /
         Support the callout with some short explanatory text. You don’t need
         more than a couple of sentences.
       </p>
-      <a class="usa-button" href="">Call to action</a>
+      <a class="usa-button" href="javascript:void(0);">Call to action</a>
     </div>
   </div>
 </section>
@@ -131,6 +131,6 @@ permalink: /
       should get in touch here, and use an active verb on the button below.
       “Get in touch,” “Learn more,” and so on.
     </p>
-    <a class="usa-button usa-button--big" href="">Call to action</a>
+    <a class="usa-button usa-button--big" href="javascript:void(0);">Call to action</a>
   </div>
 </section>

@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "hideElements": ".usa-overlay",
+    "ignore": [
+      "color-contrast"
+    ],
+    "includeWarnings": true,
+    "runners": [
+      "axe",
+      "htmlcs"
+    ],
+    "standard": "WCAG2AA"
+  },
+  "timeout": 240000
+}

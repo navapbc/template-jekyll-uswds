@@ -17,8 +17,8 @@ baseurl: "/template-jekyll-uswds" # the subpath of your site, e.g. /blog
 url: "https://navapbc.github.io" # base hostname & protocol, e.g. http://example.com
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # There's no need to copy all 2K+ USWDS asset. The usa-icons/ are packaged
 # into the SVG sprite (prefer using it). However, since img src attributes
