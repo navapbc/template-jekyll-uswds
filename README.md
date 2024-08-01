@@ -64,7 +64,7 @@ All of the `usa-icons` are packaged into a sprite, which should be preferred whe
 
 ```
 <svg class="usa-icon" role="img">
-  <use xlink:href="{{ '/assets/img/sprite.svg#arrow_forward' | relative_url }}"></use>
+  <use xlink:href="{{ '/assets/uswds/img/sprite.svg#arrow_forward' | relative_url }}"></use>
 </svg>
 ```
 
