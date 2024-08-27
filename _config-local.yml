@@ -10,7 +10,7 @@
 # the site will build only from the committed icons.
 #
 # Jekyll 4 is required. Jekyll 3 will not copy icons with this config,
-# as `include` is a v3 config option.
+# as `include` is a v4 config option.
 
 exclude:
   - assets/uswds/img/favicons
